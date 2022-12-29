@@ -83,12 +83,6 @@ class Info:
             self.colors[i]=(0,lim,0)
             lim-=10
             yield True 
-    
-    def heap_sort(self):
-        max_heap=MaxHeap(self.lst,self)
-        max_heap.sort()
-
-
 
 def main():
     run=True 
